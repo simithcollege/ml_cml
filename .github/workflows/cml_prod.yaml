@@ -19,6 +19,11 @@ jobs:
           pip install -r requirements.txt
           python test.py
 
+          # Pull data & run-cache from S3 and reproduce pipeline
+          dvc pull data\winequality-red-test.csv.dvc --run-cache
+          #dvc pull data --run-cache
+          #dvc repro
+          
           #git config --global user.name "larry.lecomte"
           #git config --global user.email "larry.lecomte@gmail.com"
 

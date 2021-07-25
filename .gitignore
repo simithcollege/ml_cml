@@ -1,0 +1,9 @@
+
+data/winequality-red-test.csv
+.dvc/plots/confusion.json
+.dvc/plots/confusion_normalized.json
+.dvc/plots/default.json
+.dvc/plots/linear.json
+.dvc/plots/scatter.json
+.dvc/plots/smooth.json
+.dvcignore
