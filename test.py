@@ -30,7 +30,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=.7, random_
 # RandomForest
 from sklearn.ensemble import RandomForestClassifier
 
-rfc = RandomForestClassifier(n_estimators=49,max_depth=09, random_state=101,class_weight='balanced')
+rfc = RandomForestClassifier(n_estimators=49,max_depth=9, random_state=101,class_weight='balanced')
 
 # Fit a model
 rfc.fit(X_train,y_train)
