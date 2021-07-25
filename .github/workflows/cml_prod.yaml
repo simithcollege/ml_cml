@@ -26,11 +26,11 @@ jobs:
           python test.py
 
           
-          #git config --global user.name "larry.lecomte"
-          #git config --global user.email "larry.lecomte@gmail.com"
+          git config --global user.name "simithcollege"
+          git config --global user.email "73145893+simithcollege@users.noreply.github.com"
 
-          #git add model/model.pkcl && git commit -m "generate model file" --allow-empty
-          #git push origin master
+          git add model/model.pkcl && git commit -m "generate model file" --allow-empty
+          git push origin master
 
           cat metrics.txt >> report.md
           cml-publish confusion_matrix.png --md >> report.md
