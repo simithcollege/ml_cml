@@ -19,7 +19,7 @@ jobs:
           pip install -r requirements.txt
 
           # Pull data & run-cache from S3 and reproduce pipeline
-          dvc pull data\winequality-red-test.csv.dvc --run-cache
+          dvc pull data/winequality-red-test.csv.dvc --run-cache
           #dvc pull data --run-cache
           #dvc repro
           python test.py
